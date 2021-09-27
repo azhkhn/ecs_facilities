@@ -14,6 +14,7 @@ app_license = "MIT"
 doc_events = {
 "Journal Entry": {
 	"on_cancel": "ecs_facilities.ecs_facilities.overrides.journal_entry.journal_entry.cancel_facility_transaction_on_je_cancel",
+	"on_cancel": "ecs_facilities.ecs_facilities.overrides.journal_entry.journal_entry.cancel_guarantee_transaction_on_je_cancel",
 }
 }
 

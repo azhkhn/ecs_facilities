@@ -16,3 +16,9 @@ def cancel_facility_transaction_on_je_cancel(doc, method=None):
 	facility_transaction = frappe.get_doc('Facility Transaction', doc.reference_link)
 	if doc.reference_doctype == "Facility Transaction":
 		facility_transaction.cancel()
+
+@frappe.whitelist()
+def cancel_guarantee_transaction_on_je_cancel(doc, method=None):
+	guarantee_transaction = frappe.get_doc('Guarantee Transaction', doc.reference_link)
+	if doc.reference_doctype == "Guarantee Transaction":
+		guarantee_transaction.cancel()
