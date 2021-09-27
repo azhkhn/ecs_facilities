@@ -1,7 +1,9 @@
 {
  "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
  "autoname": "naming_series:",
- "creation": "2021-06-27 20:57:46.951222",
+ "creation": "2021-09-27 10:54:36.013918",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -160,12 +162,12 @@
  "links": [
   {
    "link_doctype": "Journal Entry",
-   "link_fieldname": "facility_transaction"
+   "link_fieldname": "reference_link"
   }
  ],
- "modified": "2021-06-29 11:50:14.575826",
+ "modified": "2021-09-27 12:42:55.225738",
  "modified_by": "Administrator",
- "module": "Newstareg",
+ "module": "ECS Facilities",
  "name": "Facility Transaction",
  "owner": "Administrator",
  "permissions": [

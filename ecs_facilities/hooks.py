@@ -11,6 +11,11 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
+doc_events = {
+"Journal Entry": {
+	"on_cancel": "ecs_facilities.ecs_facilities.overrides.journal_entry.journal_entry.cancel_facility_transaction_on_je_cancel",
+}
+}
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ecs_facilities/css/ecs_facilities.css"

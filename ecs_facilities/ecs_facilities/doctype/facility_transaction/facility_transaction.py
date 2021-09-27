@@ -108,7 +108,7 @@ class FacilityTransaction(Document):
 				"cheque_no" : self.name,
 				"cheque_date" : self.posting_date,
 				"posting_date" : self.posting_date,
-				"accounts" : accounts
+				"accounts" : accounts,
 				"user_remark": self.name,
 				"remark": _('Facility Transaction  {0}').format(self.name)
 
