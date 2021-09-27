@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ecs_facilities *.css
+recursive-include ecs_facilities *.csv
+recursive-include ecs_facilities *.html
+recursive-include ecs_facilities *.ico
+recursive-include ecs_facilities *.js
+recursive-include ecs_facilities *.json
+recursive-include ecs_facilities *.md
+recursive-include ecs_facilities *.png
+recursive-include ecs_facilities *.py
+recursive-include ecs_facilities *.svg
+recursive-include ecs_facilities *.txt
+recursive-exclude ecs_facilities *.pyc
