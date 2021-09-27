@@ -403,12 +403,12 @@
  "links": [
   {
    "link_doctype": "Journal Entry",
-   "link_fieldname": "gur"
+   "link_fieldname": "reference_link"
   }
  ],
- "modified": "2021-06-24 23:02:20.006907",
+ "modified": "2021-09-27 13:47:35.000641",
  "modified_by": "Administrator",
- "module": "Newstareg",
+ "module": "ECS Facilities",
  "name": "Guarantee Transaction",
  "owner": "Administrator",
  "permissions": [

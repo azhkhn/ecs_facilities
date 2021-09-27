@@ -258,9 +258,9 @@
    "link_fieldname": "facility"
   }
  ],
- "modified": "2021-06-28 21:20:03.421360",
+ "modified": "2021-09-27 14:02:50.409405",
  "modified_by": "Administrator",
- "module": "Newstareg",
+ "module": "ECS Facilities",
  "name": "Facility",
  "owner": "Administrator",
  "permissions": [
