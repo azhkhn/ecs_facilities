@@ -40,7 +40,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -92,7 +93,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -130,7 +132,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -184,7 +187,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -220,7 +224,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -272,7 +277,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -310,7 +316,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -364,7 +371,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -404,7 +412,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -461,7 +470,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -499,7 +509,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -553,7 +564,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -589,7 +601,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -641,7 +654,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -679,7 +693,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -733,7 +748,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -769,7 +785,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,
@@ -821,7 +838,8 @@ class GuaranteeTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype": "Journal Entry",
 				"voucher_type": "Journal Entry",
-				"gur": self.name,
+				"reference_doctype": "Guarantee Transaction",
+				"reference_link": self.name,
 				"company": self.company,
 				"posting_date": self.posting_date,
 				"accounts": accounts,

@@ -68,11 +68,14 @@ class FacilityTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype" : "Journal Entry",
 				"voucher_type" : "Bank Entry",
-				"facility_transaction" : self.name,
+				"reference_doctype" : "Facility Transaction",
+				"reference_link" : self.name,
 				"cheque_no" : self.name,
 				"cheque_date" : self.posting_date,
 				"posting_date" : self.posting_date,
-				"accounts" : accounts
+				"accounts" : accounts,
+				"user_remark": self.name,
+				"remark": _('Facility Transaction  {0}').format(self.name)
 
 			})
 			doc.insert()
@@ -100,11 +103,14 @@ class FacilityTransaction(Document):
 			doc = frappe.get_doc({
 				"doctype" : "Journal Entry",
 				"voucher_type" : "Bank Entry",
-				"facility_transaction" : self.name,
+				"reference_doctype" : "Facility Transaction",
+				"reference_link" : self.name,
 				"cheque_no" : self.name,
 				"cheque_date" : self.posting_date,
 				"posting_date" : self.posting_date,
 				"accounts" : accounts
+				"user_remark": self.name,
+				"remark": _('Facility Transaction  {0}').format(self.name)
 
 			})
 			doc.insert()
